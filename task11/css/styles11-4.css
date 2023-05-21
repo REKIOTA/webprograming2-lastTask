@@ -1,0 +1,12 @@
+dd {
+    width  : 400px;
+    padding : 5px;
+    color: gray;
+    max-height : 0px;
+    opacity : 0;			
+    transition: all 1s;
+}		
+.anim {
+    max-height : 400px;
+    opacity : 1;
+}

@@ -1,0 +1,14 @@
+ul {
+    list-style-type: none;
+}
+.list1 {
+    width  : 200px;
+    height : 30px;
+    border : 1px solid gray;
+    background-color: lightblue;
+    transition: transform 1s;
+}
+.animation2 {
+    transform: translateX(40px);
+    background-color: aqua;
+}

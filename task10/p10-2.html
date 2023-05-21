@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>演習10-2 学籍番号:M22W0B03  </title>
+		<link rel="stylesheet" href="./css/styles10-2.css">
+	</head>
+	<body>
+		<h2>入力部品(2)</h2>
+		<table>
+			<tr>
+				<th>テキストボックス</th>
+				<td><input type="text" id="tbox_inp"></td>
+				<td><span id="tbox_result"></span></td>
+			</tr>
+			<tr>
+			<th>スライダー</th>
+				<td>
+					<input type="range" id="range_inp" max="100">
+				</td>
+				<td><span id="range_result"></span></td>
+			</tr>
+			<th>テキストエリア</th>
+				<td>
+					<textarea name="memo" rows="3" cols="20" id="tarea_inp"></textarea>
+				</td>
+				<td><span id="tarea_result"></span></td>
+			</tr>
+			<tr>
+				<th>ラジオボタン</th>
+				<td id="rbtn_inp">
+					<input type="radio" name="language" value="English">英語
+					<input type="radio" name="language" value="Japanese">日本語
+					<input type="radio" name="language" value="Chinese">中国語
+				</td>
+				<td><span id="rbtn_result"></span></td>
+				</tr>
+			<tr>
+			<th>チェックボックス</th>
+				<td id="cbox_inp">
+					<input type="checkbox" name="animation" value="Demon Slayer">鬼滅の刃
+					<input type="checkbox" name="animation" value="Chainsaw Man">チェンソーマン
+					<input type="checkbox" name="animation" value="GOLDEN KAMUY">ゴールデンカムイ
+				</td>
+				<td><span id="cbox_result"></span></td>
+			</tr>
+
+			<tr>
+				<th>メニュー（単一）</th>
+				<td>
+					<select id="select1_inp" name="age">
+						<option value="10's">10代</option>
+						<option value="20's">20代</option>
+						<option value="30's">30代</option>
+						<option value="40's">40代</option>
+						<option value="50's">50代</option>
+					</select>
+				</td>
+				<td><span id="select1_result"></span></td>
+			</tr>
+			<tr>
+				<th>メニュー（複数）</th>
+				<td>
+					<select id="selectm_inp" name="address" multiple size="4">
+						<option value="Tokyo">東京</option>
+						<option value="Yokohama">横浜</option>
+						<option value="Chiba">千葉</option>
+						<option value="Saitama">埼玉</option>
+					</select>
+				</td>	
+				<td><span id="selectm_result"></span></td>
+			</tr>
+		</table>
+		<script src="./js/p10-2.js"></script>
+	</body>
+</html>

@@ -1,0 +1,15 @@
+table {
+    border : 1px solid gray;
+    border-collapse: collapse;
+}
+td,th {
+                border: 1px solid gray;
+                min-width: 10em;
+            }
+th {
+    background-color : lightgray;
+}
+span {
+    display : inline-block;
+    min-width   : 10em;
+}
